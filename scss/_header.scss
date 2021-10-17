@@ -146,6 +146,10 @@ header{
             &.white{
                 border: 1px solid $brand-blue;
                 color: $brand-blue;
+                &:hover{
+                    background-color: $brand-blue;
+                    color: #ffff;
+                }
             }
         }
     }
@@ -153,7 +157,7 @@ header{
         display: block;
         background: url("../img/logo.svg") no-repeat center center;
         width: 14.3rem;
-        height: 3rem;
+        height: 4rem;
         background-size: 100% !important;
     }
 }
