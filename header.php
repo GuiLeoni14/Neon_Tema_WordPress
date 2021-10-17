@@ -18,13 +18,11 @@
 </head>
 
 <body>
-    <header>
+    <header id="js-header">
         <div class="container">
-            <a href="" class="logo">
-                <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" alt="">
-            </a>
+            <a href="" class="logo"></a>
             <nav>
-                <div class="dropdown">
+                <div class="dropdown js-dropdown">
                     <div class="item">
                         <strong>Cartão de crédito</strong>
                         <p>Cartão de crédito sem anuidade</p>

@@ -81,6 +81,7 @@
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/scripts.js"></script>
     <script>
         var swiper = new Swiper(".slide-depoimentos", {
             slidesPerView: 3,
